@@ -1,0 +1,21 @@
+.left-side
+{
+    background-color: rgb(1, 10, 32);
+    overflow-y: scroll;
+    height: 100%;
+}
+
+
+.left-side::-webkit-scrollbar {
+    width:6px; /* Width of the scrollbar */
+}
+
+.left-side::-webkit-scrollbar-thumb {
+    background: rgb(31, 50, 90); 
+    border-radius:14px;/* Color of the scrollbar handle */
+  } 
+
+.area-pannel
+{
+    background: rgb(184, 184, 184);
+}
