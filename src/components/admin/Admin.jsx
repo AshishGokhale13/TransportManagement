@@ -2,7 +2,12 @@ import React from 'react'
 import {Container,Col,Row} from 'react-bootstrap'
 import Menu from '../custome/Menu/Menu'
 import './admin.css'
+import { menuList } from '../custome/Menu/menuList.jsx'
+import { Outlet } from 'react-router-dom'
+
 function Admin() {
+    const menu=menuList;
+
   return (
         <>
         <Container fluid>
@@ -11,15 +16,16 @@ function Admin() {
                     <div className='w-100 px-3 py-2 h4 text-primary'>CB Roadlines</div>
                     <div className='sidebar w-100 '>
                         <div className='sidebar text-white'>
-                            <Menu/>
-                            <Menu/>
-                            <Menu/>
-                            <Menu/>
+                        {menu&&menu.map(data=><Menu key={data.name} content={data}/>)}
                         </div>
                     </div>
                 </Col>
                 <Col md={10} className='area-pannel'>
-                    
+
+                <div className='area-content'> 
+                  <Outlet/>
+                </div>
+                
                 </Col>
             </Row>
         </Container>

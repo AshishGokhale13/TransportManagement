@@ -1,0 +1,9 @@
+.cards
+{
+    height: auto;
+    padding: 2em 3em;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 2px gray;
+    margin: 1em;
+    width:22%;
+}

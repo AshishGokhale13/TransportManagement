@@ -1,0 +1,84 @@
+
+
+.hide
+{
+    display: none;
+}
+
+.Menu span
+{
+    border-bottom: 1px solid var(--primary);
+    position: relative;
+    padding-bottom: 4px;
+}
+.Menu 
+{
+    position: relative;
+    margin: 0;
+}
+
+.show
+{
+    display: block;
+   
+}
+
+.subMenus div
+{
+    padding: 0.8em 0;
+    height: 50px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.subMenus div:nth-child(1):hover
+{
+    transition: 0.6s;
+   
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid  var(--primary);
+}
+
+.subMenus div:hover
+{
+    transition: 0.6s;
+             
+    background: var(--primary);
+}
+
+.subMenus
+{
+    position: relative;
+}
+
+
+
+
+@keyframes Up
+{
+    0%{
+       
+        width: 100%;
+        height:auto;
+        padding: 1em 1em;
+        margin-top:-5%;
+        height: 50px;
+        margin-left: -90%;
+       
+      
+    }
+    55% {
+        width: 100%;
+        height:50px;
+        padding: 1em 1em;
+        margin-top:-5%;
+       
+      
+    }
+    100%{
+       
+        margin-left: -7%;
+        background: var(--primary);
+    }
+}

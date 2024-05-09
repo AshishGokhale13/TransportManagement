@@ -1,0 +1,247 @@
+.text-danger{
+    color: #ff1313 !important; 
+    font-weight:bold; 
+}
+.badge{
+    color: #ffffff !important; 
+    background-color: #ff0000;
+    border-radius: 10px 50px;
+}
+
+.lh{
+    color: rgb(15, 111, 167);
+    font-weight: bold;
+    line-height: 20px;
+}
+.dotted-underline {
+ 
+    border-bottom: dotted;
+    
+}
+.Table{
+    border-collapse: collapse;
+}
+.line{
+    font-size: 12px;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+.line1{
+    font-size: 10px !important;
+    line-height:10px;
+    border-bottom: 1px solid grey;
+  
+}
+.line1>span{
+    color: rgb(15, 111, 167);
+    font-weight: bold;
+}
+.tr{
+    border:none;
+    
+}
+.content tbody>tr,.content tbody>tr>td
+
+{    color: rgb(15, 111, 167);
+    font-weight: bold;
+    border: none !important;
+    border-left: 1px solid rgb(200, 200, 200) !important;
+    border-right: 1px solid rgb(200, 200, 200) !important;
+    line-height: 15px;
+   
+
+}
+.content1 tbody>tr,.content1 tbody>tr>td
+
+{    color: rgb(15, 111, 167);
+    font-weight: bold;
+    border-left: 1px solid rgb(200, 200, 200) !important;
+    border-right: 1px solid rgb(200, 200, 200) !important;
+    
+   
+
+}
+.content tbody tr:nth-last-child(1),.content tbody tr:nth-last-child(3)
+{
+ 
+    border-bottom: 1px solid rgb(200, 200, 200) !important;
+}
+.content1 tbody tr:nth-last-child(1),.content tbody tr:nth-last-child(3)
+{
+    
+    border-bottom: 1px solid rgb(200, 200, 200) !important;
+}
+.span{
+    color: rgb(15, 111, 167);
+    font-weight: bold;
+    font-size: 12px;
+}
+.span{
+    font-size: 12px;
+    
+}
+.span span{
+    color: #ff1313;
+    font-size: 12px;
+}
+
+.BORDER{
+    border-bottom: 2px solid black;
+}
+.data{
+    color: rgb(15, 111, 167);
+    font-weight: bold;
+}
+.Tbody{
+    
+    font-weight: bold; 
+}
+.Base{
+    color: rgb(15, 111, 167);
+    font-weight: bold;
+}
+.Base1{
+    color: rgb(247, 21, 21);
+    font-weight: bold;
+}
+.mob{
+    color: rgb(15, 111, 167);
+    font-weight: bold;
+}
+.watermark {
+    position: relative;
+  }
+  
+  .watermark::after {
+    content: 'C B T C';
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    rotate: z -30deg;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0.2); 
+    font-size: 100px; 
+    pointer-events: none; 
+    z-index: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+
+  @media print {
+    body, html {
+      zoom: 97%;
+    }
+  }
+
+  .middle p
+  {
+    line-height: 2px;
+  }
+  .fs-05
+  {
+    font-size:10px;
+  }
+
+  .fs-02
+  {
+    font-size: 12px;
+  }
+
+  .fs-03
+  {
+    font-size: 14px;
+  }
+  .borders p
+  {
+    padding-bottom: 8px;
+    margin-top: 2px;
+    font-size: 14px;
+    border-bottom: 1px dotted gray;
+  }
+
+  .content th
+  {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .content td
+  {
+    font-size: 12px;
+    line-height: 4px !important;
+  }
+
+  .lh-2
+  {
+    line-height: 16px;
+  }
+
+  .fs-01
+  {
+    font-size: 18px !important;
+  }
+
+  lh-5
+  {
+    line-height: 20px;
+  }
+  .fs-06
+  {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .fs-05
+  {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .fs-04
+{
+    font-size: 10px;
+}
+.fs-04 p
+{
+    font-weight: normal;
+}
+.fs-04 p:nth-child(1)
+{
+    font-weight: bold;
+}
+
+.mt-25
+{
+    margin-top: 14px;}
+
+    .bold
+    {
+        font-weight: bold !important;
+    }
+
+.fs-07
+{
+    font-size: 9.5px;
+    font-weight:900;
+}
+
+.border-right
+{
+    border-right: 1px solid gray;
+}
+
+label
+{
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+
+.print-opt
+{
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+
+}
