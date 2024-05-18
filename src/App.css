@@ -1,1 +1,17 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.kpi-box
+{
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 0.5 solid rgb(16, 15, 73); ;
+    background-color:  rgb(16, 15, 73); ;
+}
+
+.text-shadow
+{
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid rgb(16, 15, 73);;
+}

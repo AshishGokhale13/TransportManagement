@@ -105,7 +105,7 @@ const ReciptFormat = ({ data, info }) => {
                     <tr className="">
                       <td></td>
                       <td>
-                        <div className='row'><div className='col-3 text-end'> No Of Bales:</div><div className='col'>{info.noBalse}
+                        <div className='row'><div className='col-4 text-end'> No Of Bales:</div><div className='col'>{info.noBalse}
                         </div>
                         </div>
                       </td>
@@ -113,37 +113,37 @@ const ReciptFormat = ({ data, info }) => {
                     <tr>
                       <td></td>
                       <td>
-                        <div className='row'><div className='col-3 text-end'>Quality:</div><div className='col'> {info.quality}</div></div></td>
+                        <div className='row'><div className='col-4 text-end'>Quality:</div><div className='col'> {info.quality}</div></div></td>
                     </tr>
                     <tr>
                       <td></td>
                       <td>
-                        <div className='row'><div className='col-3 text-end'>P.R.No:</div><div className='col'> {info.prn}</div></div></td>
+                        <div className='row'><div className='col-4 text-end'>P.R.No:</div><div className='col'> {info.prn}</div></div></td>
                     </tr>
                     <tr>
                       <td></td>
                       <td>
-                        <div className='row'><div className='col-3 text-end'>P.Marks:</div><div className='col'> {info.pmarks}</div></div></td>
+                        <div className='row'><div className='col-4 text-end'>P.Marks:</div><div className='col'> {info.pmarks}</div></div></td>
                     </tr>
                     <tr>
                       <td></td>
                       <td>
-                        <div className='row'><div className='col-3 text-end'>Lot.No:</div><div className='col'> {info.lotNo}</div></div></td>
+                        <div className='row'><div className='col-4 text-end'>Lot.No:</div><div className='col'> {info.lotNo}</div></div></td>
                     </tr>
                     <tr>
                       <td></td>
                       <td>
-                        <div className='row'><div className='col-3 text-end'>Private Mark:</div><div className='col'> {info.privateMark}</div></div></td>
+                        <div className='row'><div className='col-4 text-end'>Private Mark:</div><div className='col'> {info.privateMark}</div></div></td>
                     </tr>
                     <tr>
                       <td></td>
                       <td>
-                        <div className='row'><div className='col-3 text-end'>Invo.No:</div><div className='col'> {info.invoice_id}</div></div></td>
+                        <div className='row'><div className='col-4 text-end'>Invo.No:</div><div className='col'> {info.invoice_id}</div></div></td>
                     </tr>
                     <tr>
                       <td></td>
                       <td>
-                        <div className='row'><div className='col-3 text-end'>Value of The Goods:</div><div className='col'> {info.valueOfGoods}</div></div></td>
+                        <div className='row'><div className='col-4 text-end'>Value of The Goods:</div><div className='col'> {info.valueOfGoods}</div></div></td>
                     </tr>
                     <tr>
                       <td></td>

@@ -8,6 +8,7 @@ export const menuList=[
     {
         name:"Dashboard",
         icon:<MdDashboard/>,
+        link:"/admin"
     },
     {
         name:"Invoice",
@@ -25,9 +26,6 @@ export const menuList=[
             }
         ]
 
-    }, {
-        name:"Consinee",
-        icon:<FaClipboardUser/>,
-    },
+    }
     
 ]

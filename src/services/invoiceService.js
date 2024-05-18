@@ -45,7 +45,7 @@ const deleteInvoiceData =async(a)=>{
 
 
 export const validateLogin=async(a)=>{
-    const response=await axios.post(`${getBaseUrl()}admin/credentials`,a);
+    const response=await axios.post(`${getBaseUrl()}admin/credentials`,a).catch(error=>error);
     const data=await response.data;
     console.log(data);
     return data;

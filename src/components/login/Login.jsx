@@ -19,15 +19,13 @@ function Login() {
       setPassword(e.target.value);
     };
   
-
-    
     const handleSubmit =async (e) => {
       e.preventDefault();
       if((email!=="" || email!==null) && (password!=="" || password!==null) )
       {
         const data=await validateLogin({username:email,password});
         console.log(data);
-        if(data.statusCode===200 && data.message==="success")
+        if(data?.statusCode===200 && data?.message==="success")
         {
           Swal.fire({
             title: 'Welcome !',

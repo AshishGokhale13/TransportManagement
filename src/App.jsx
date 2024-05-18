@@ -10,6 +10,7 @@ import Recipt from './components/admin/invoice/Recipt'
 import InvoiceList from './components/admin/invoice/InvoiceList'
 import InvoiceUpdate from './components/admin/invoice/Update/InvoiceUpdate'
 import { getInvoiceList } from './services/invoiceService'
+import Dashboard from './components/admin/dashboard/Dashboard'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/admin" element={<Admin />}>
+            <Route path="/admin" element={<Dashboard/>}/>
             <Route path="/admin/invoice" element={<Invoice />} />
             <Route path="/admin/invoice/list" element={<InvoiceList/>} />
             <Route path="/admin/invoice/update/:id"   element={<InvoiceUpdate/>} />

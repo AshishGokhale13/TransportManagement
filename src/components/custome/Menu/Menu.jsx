@@ -14,7 +14,14 @@ function Menu({ content }) {
   return (
     <div className="area">
       <div className='Menu py-2' onClick={toggleSubmenu}>
-        <span className='h5 d-flex justify-content-between align-items-center px-2'>{content.name} {content.icon}</span>
+       
+       {(content?.link)? 
+      <NavLink  to={content.link} className='text-white text-decoration-none ' > <span className='h5 d-flex justify-content-between align-items-center px-2'>{content.name} {content.icon}</span></NavLink>
+      :
+      <span className='h5 d-flex justify-content-between align-items-center px-2'>{content.name} {content.icon}</span>
+      }
+
+      
       </div>
       {content.submenu && submenuActive && (
         <div className='subMenus dj'>
